@@ -32,10 +32,16 @@ body {
   font-weight: 300;
   font-size: 1.5rem;
 }
+div.gallery img {
+        width: 100%;
+        height: auto;
+        div-desc: center;
+    }
 
 .card-signin .card-body {
   padding: 2rem;
-  border-color: #CCA43B;
+  border: 3px solid #CCA43B;
+  width: auto;
 }
 
 .form-signin {
@@ -113,12 +119,43 @@ body {
   color: #777;
 }
 
-/*.btn-google {
-  color: white;
-  background-color: #ea4335;
+/* unvisited link */
+a:link {
+    color: #1B295B;
+    display: block;
+    text-align: center;
 }
 
-.btn-facebook {
-  color: white;
-  background-color: #3b5998;
-} */
+/* visited link */
+a:visited {
+    color: #707074;
+}
+
+/* mouse over link */
+a:hover {
+    color: black;
+}
+
+/* selected link */
+a:active {
+    color: #CCA43B;
+}
+
+.nav-tabs {
+    background: #1B295B;
+    color: white;
+}
+.nav-link active {
+    background: #CCA43B;
+    color: black;
+}
+
+#itemNav{
+    color: #CCA43B;
+}
+.nav-link {
+    background: #1B295B;
+}
+.nav-item {
+    color: #CCA43B;
+}
